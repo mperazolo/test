@@ -1,0 +1,10 @@
+os: Linux
+dist: focal
+
+add-ons:
+  apt:
+    packages:
+      - rpm
+
+install:
+  - rpmbuild --version
